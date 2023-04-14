@@ -23,11 +23,11 @@ def prediction():
     pred=model.predict(inputvariables)
     
     if pred == 1:
-        pred='will be'
+        pred='Will be'
     else:
-        pred='wont get'
+        pred="Won't get"
 
-    return render_template("result.html",prediction=pred)
+    return render_template("result.html",flightnumber=flnum,prediction=pred)
 
 if __name__=='__main__':
     app.run(debug=True)
