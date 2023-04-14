@@ -2,6 +2,7 @@ from flask import Flask,request,render_template
 import pickle 
 from sklearn.preprocessing import StandardScaler
 
+sc=StandardScaler()
 app = Flask(__name__)
 
 @app.route('/')
@@ -18,7 +19,7 @@ def prediction():
     schdl_arriv = int(request.form['schdl_arriv'])
     
     inputvariables=[[flnum,month,day,week,schdl_arriv,dep_delay]]
-    model = pickle.load(open('flightRFCmodel.pkl','rb'))
+    model = pickle.load(open('flightDTCmodel.pkl','rb'))
     
     pred=model.predict(inputvariables)
     
