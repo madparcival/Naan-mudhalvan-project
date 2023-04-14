@@ -1,7 +1,7 @@
 # NM-ARTS--17324-1678698084
 ## Flight Delay Prediction for aviation Industry using Machine Learning
 
-Demo --> [Video](https://drive.google.com/file/d/1BJKwsgihQCm6qy5oqPVMDfjsDUI525J8/view?usp=sharing).https://drive.google.com/file/d/1BJKwsgihQCm6qy5oqPVMDfjsDUI525J8/view?usp=sharing
+Demo --> [Video](https://drive.google.com/file/d/1BJKwsgihQCm6qy5oqPVMDfjsDUI525J8/view?usp=sharing).
 
 > #### Documentation 
 >> This contains 
