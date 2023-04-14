@@ -3,6 +3,12 @@
 
 Demo --> [Video](https://drive.google.com/file/d/1BJKwsgihQCm6qy5oqPVMDfjsDUI525J8/view?usp=sharing).
 
+## Steps to Run
+
+- Requirements **Python,Flask,Pickle**
+- Run the app.py with Python
+  
+  
 > #### Documentation 
 >> This contains 
 >>  - Brainstorming & Empathy map
